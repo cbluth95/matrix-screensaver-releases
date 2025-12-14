@@ -118,7 +118,7 @@ MatrixSaver.scr /p [HWND] # Preview mode
 ## Need Help?
 
 - Check the [main README](README.md) for features and usage
-- Report issues on [GitHub Issues](https://github.com/YOUR_USERNAME/matrix-screensaver-releases/issues)
+- Report issues on [GitHub Issues](https://github.com/cbluth95/matrix-screensaver-releases/issues)
 - See the FAQ (coming soon)
 
 ---

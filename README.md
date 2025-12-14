@@ -21,11 +21,11 @@ A high-performance Matrix-style digital rain screensaver for Windows with Direct
 
 ### Latest Release: v1.12.1
 
-**[Download MatrixSaverSetup-1.12.1.exe](https://github.com/YOUR_USERNAME/matrix-screensaver-releases/releases/latest)**
+**[Download MatrixSaverSetup-1.12.1.exe](https://github.com/cbluth95/matrix-screensaver-releases/releases/latest)**
 
 ### Installation Steps:
 
-1. Download the installer from the [Releases page](https://github.com/YOUR_USERNAME/matrix-screensaver-releases/releases)
+1. Download the installer from the [Releases page](https://github.com/cbluth95/matrix-screensaver-releases/releases)
 2. Run `MatrixSaverSetup-1.12.1.exe` (no additional software required - includes .NET runtime)
 3. Follow the installation wizard
 4. Configure in Windows:
@@ -114,8 +114,8 @@ Created by **Cody Bluth** - December 2025
 ## 📧 Support
 
 For issues, questions, or feature requests:
-- Open an issue on [GitHub Issues](https://github.com/YOUR_USERNAME/matrix-screensaver-releases/issues)
-- Check the [FAQ](https://github.com/YOUR_USERNAME/matrix-screensaver-releases/wiki/FAQ) (coming soon)
+- Open an issue on [GitHub Issues](https://github.com/cbluth95/matrix-screensaver-releases/issues)
+- Check the [FAQ](https://github.com/cbluth95/matrix-screensaver-releases/wiki/FAQ) (coming soon)
 
 ---
 
