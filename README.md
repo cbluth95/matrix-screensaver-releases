@@ -1,5 +1,7 @@
 # Matrix Screensaver Pro
 
+![Matrix Screensaver Pro](assets/logo-banner.svg)
+
 A high-performance Matrix-style digital rain screensaver for Windows with DirectX GPU acceleration.
 
 ![Matrix Screensaver](https://img.shields.io/badge/version-1.12.1-green)
