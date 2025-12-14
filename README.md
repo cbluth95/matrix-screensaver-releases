@@ -7,6 +7,12 @@ A high-performance Matrix-style digital rain screensaver for Windows with Direct
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 <img width="3750" height="1250" alt="logo-banner" src="https://github.com/user-attachments/assets/bfc34000-368c-48e1-80b2-24165b9eba5f" />
+<p align="center">
+  <img width="400" height="200" src="https://github.com/user-attachments/assets/f80c6a0e-5481-4af9-b71a-d0da91572bd4" />
+  <img width="400" height="200" src="https://github.com/user-attachments/assets/07bdfdc4-655c-4481-8353-49f54c89c914" />
+</p>
+
+
 
 ## ✨ Features
 
