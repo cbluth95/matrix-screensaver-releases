@@ -6,6 +6,8 @@ A high-performance Matrix-style digital rain screensaver for Windows with Direct
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
+<img width="3750" height="1250" alt="logo-banner" src="https://github.com/user-attachments/assets/bfc34000-368c-48e1-80b2-24165b9eba5f" />
+
 ## ✨ Features
 
 - 🚀 **60 FPS DirectX Rendering** - Smooth GPU-accelerated graphics
