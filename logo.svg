@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <!-- Background -->
+  <rect width="800" height="200" fill="#000000"/>
+  
+  <!-- Digital rain effect in background -->
+  <g opacity="0.15">
+    <text x="50" y="180" fill="#00FF41" font-family="Courier New, monospace" font-size="120" font-weight="bold">01</text>
+    <text x="650" y="180" fill="#00FF41" font-family="Courier New, monospace" font-size="120" font-weight="bold">10</text>
+  </g>
+  
+  <!-- Matrix icon - stylized M in digital style -->
+  <g id="icon">
+    <!-- Outer glow -->
+    <rect x="30" y="40" width="120" height="120" fill="none" stroke="#00FF41" stroke-width="2" opacity="0.3"/>
+    
+    <!-- M letter made of matrix-style blocks -->
+    <path d="M 50 140 L 50 60 L 75 85 L 100 60 L 100 140" 
+          fill="none" stroke="#00FF41" stroke-width="8" stroke-linecap="square"/>
+    
+    <!-- Digital dots/pixels accent -->
+    <circle cx="50" cy="60" r="5" fill="#00FF41"/>
+    <circle cx="75" cy="85" r="5" fill="#00FF41"/>
+    <circle cx="100" cy="60" r="5" fill="#00FF41"/>
+    
+    <!-- Scanline effect -->
+    <line x1="30" y1="100" x2="150" y2="100" stroke="#00FF41" stroke-width="1" opacity="0.5"/>
+  </g>
+  
+  <!-- Main text -->
+  <g id="text">
+    <!-- MATRIX text -->
+    <text x="180" y="90" fill="#00FF41" font-family="Arial, sans-serif" font-size="48" font-weight="bold" letter-spacing="2">
+      MATRIX
+    </text>
+    
+    <!-- SCREENSAVER PRO text -->
+    <text x="180" y="130" fill="#00CC33" font-family="Arial, sans-serif" font-size="28" font-weight="normal" letter-spacing="4">
+      SCREENSAVER PRO
+    </text>
+    
+    <!-- Tagline -->
+    <text x="180" y="160" fill="#00FF41" font-family="Courier New, monospace" font-size="14" opacity="0.8">
+      GPU-ACCELERATED DIGITAL RAIN
+    </text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <line x1="180" y1="142" x2="610" y2="142" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Version badge -->
+  <g transform="translate(720, 60)">
+    <rect width="60" height="24" fill="none" stroke="#00FF41" stroke-width="1.5" rx="3"/>
+    <text x="30" y="16" fill="#00FF41" font-family="Courier New, monospace" font-size="12" text-anchor="middle">v1.12</text>
+  </g>
+</svg>

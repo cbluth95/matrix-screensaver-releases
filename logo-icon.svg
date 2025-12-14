@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#000000"/>
+  
+  <!-- Outer glow effect -->
+  <circle cx="100" cy="100" r="85" fill="none" stroke="#00FF41" stroke-width="2" opacity="0.2"/>
+  <circle cx="100" cy="100" r="75" fill="none" stroke="#00FF41" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Matrix M letter -->
+  <path d="M 60 140 L 60 60 L 100 100 L 140 60 L 140 140" 
+        fill="none" stroke="#00FF41" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter"/>
+  
+  <!-- Digital accent dots -->
+  <circle cx="60" cy="60" r="7" fill="#00FF41"/>
+  <circle cx="100" cy="100" r="7" fill="#00FF41"/>
+  <circle cx="140" cy="60" r="7" fill="#00FF41"/>
+  
+  <!-- Falling binary in background -->
+  <g opacity="0.2" font-family="Courier New, monospace" font-size="14" fill="#00FF41">
+    <text x="25" y="40">1</text>
+    <text x="25" y="180">0</text>
+    <text x="175" y="40">0</text>
+    <text x="175" y="180">1</text>
+  </g>
+  
+  <!-- Scanlines -->
+  <line x1="30" y1="100" x2="170" y2="100" stroke="#00FF41" stroke-width="1" opacity="0.4"/>
+  <line x1="40" y1="80" x2="160" y2="80" stroke="#00FF41" stroke-width="1" opacity="0.2"/>
+  <line x1="40" y1="120" x2="160" y2="120" stroke="#00FF41" stroke-width="1" opacity="0.2"/>
+</svg>

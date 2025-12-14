@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#000000;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#001a00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="1200" height="400" fill="url(#bgGrad)"/>
+  
+  <!-- Falling digital rain effect -->
+  <g opacity="0.15" font-family="Courier New, monospace" fill="#00FF41">
+    <text x="100" y="50" font-size="20">0 1 0 1</text>
+    <text x="100" y="100" font-size="20">1 0 1 0</text>
+    <text x="100" y="150" font-size="20">0 1 0 1</text>
+    <text x="100" y="200" font-size="20">1 0 1 0</text>
+    <text x="100" y="250" font-size="20">0 1 0 1</text>
+    <text x="100" y="300" font-size="20">1 0 1 0</text>
+    <text x="100" y="350" font-size="20">0 1 0 1</text>
+    
+    <text x="1000" y="50" font-size="20">1 0 1 0</text>
+    <text x="1000" y="100" font-size="20">0 1 0 1</text>
+    <text x="1000" y="150" font-size="20">1 0 1 0</text>
+    <text x="1000" y="200" font-size="20">0 1 0 1</text>
+    <text x="1000" y="250" font-size="20">1 0 1 0</text>
+    <text x="1000" y="300" font-size="20">0 1 0 1</text>
+    <text x="1000" y="350" font-size="20">1 0 1 0</text>
+  </g>
+  
+  <!-- Main icon -->
+  <g transform="translate(250, 100)">
+    <!-- Icon frame -->
+    <rect x="0" y="0" width="180" height="180" fill="none" stroke="#00FF41" stroke-width="3" opacity="0.3"/>
+    
+    <!-- M letter -->
+    <path d="M 30 160 L 30 40 L 90 100 L 150 40 L 150 160" 
+          fill="none" stroke="#00FF41" stroke-width="14" stroke-linecap="square" filter="url(#glow)"/>
+    
+    <!-- Accent dots -->
+    <circle cx="30" cy="40" r="8" fill="#00FF41" filter="url(#glow)"/>
+    <circle cx="90" cy="100" r="8" fill="#00FF41" filter="url(#glow)"/>
+    <circle cx="150" cy="40" r="8" fill="#00FF41" filter="url(#glow)"/>
+  </g>
+  
+  <!-- Main title -->
+  <g transform="translate(480, 100)">
+    <!-- MATRIX -->
+    <text x="0" y="80" fill="#00FF41" font-family="Impact, Arial Black, sans-serif" font-size="90" font-weight="bold" letter-spacing="4" filter="url(#glow)">
+      MATRIX
+    </text>
+    
+    <!-- SCREENSAVER PRO -->
+    <text x="0" y="150" fill="#00CC33" font-family="Arial, sans-serif" font-size="42" font-weight="normal" letter-spacing="8">
+      SCREENSAVER PRO
+    </text>
+    
+    <!-- Decorative line -->
+    <line x1="0" y1="165" x2="580" y2="165" stroke="#00FF41" stroke-width="2" opacity="0.4"/>
+    
+    <!-- Tagline -->
+    <text x="0" y="210" fill="#00FF41" font-family="Courier New, monospace" font-size="22" letter-spacing="2" opacity="0.9">
+      60 FPS GPU-ACCELERATED DIGITAL RAIN
+    </text>
+    
+    <!-- Feature badges -->
+    <g transform="translate(0, 240)">
+      <rect width="120" height="30" fill="none" stroke="#00FF41" stroke-width="1.5" rx="4"/>
+      <text x="60" y="20" fill="#00FF41" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">DIRECTX 11</text>
+    </g>
+    
+    <g transform="translate(140, 240)">
+      <rect width="140" height="30" fill="none" stroke="#00FF41" stroke-width="1.5" rx="4"/>
+      <text x="70" y="20" fill="#00FF41" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">MULTI-THEME</text>
+    </g>
+    
+    <g transform="translate(300, 240)">
+      <rect width="160" height="30" fill="none" stroke="#00FF41" stroke-width="1.5" rx="4"/>
+      <text x="80" y="20" fill="#00FF41" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">WINDOWS 10/11</text>
+    </g>
+  </g>
+  
+  <!-- Corner accents -->
+  <line x1="0" y1="0" x2="80" y2="0" stroke="#00FF41" stroke-width="3"/>
+  <line x1="0" y1="0" x2="0" y2="80" stroke="#00FF41" stroke-width="3"/>
+  
+  <line x1="1200" y1="400" x2="1120" y2="400" stroke="#00FF41" stroke-width="3"/>
+  <line x1="1200" y1="400" x2="1200" y2="320" stroke="#00FF41" stroke-width="3"/>
+</svg>
