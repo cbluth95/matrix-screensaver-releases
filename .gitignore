@@ -1,0 +1,12 @@
+# Temporary files
+*.tmp
+*.log
+~*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Don't ignore release files in this repo
+# (opposite of the source repo - we WANT the executables here)
