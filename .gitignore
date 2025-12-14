@@ -8,5 +8,12 @@
 Thumbs.db
 desktop.ini
 
-# Don't ignore release files in this repo
-# (opposite of the source repo - we WANT the executables here)
+# Executable files (distributed via GitHub Releases, not in repo)
+*.exe
+*.scr
+*.msi
+*.zip
+releases/
+
+# Don't track local release artifacts
+# These are uploaded to GitHub Releases instead
