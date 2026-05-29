@@ -29,9 +29,9 @@ A high-performance Matrix-style digital rain screensaver for Windows with Direct
 
 ## 📥 Download & Installation
 
-### Latest Release: v1.12.1
+### Latest Release: v1.2.0
 
-**[Download MatrixSaverSetup-1.12.1.exe](https://github.com/cbluth95/matrix-screensaver-releases/releases/latest)**
+**[Download MatrixSaverSetup-1.2.0.exe](https://github.com/cbluth95/matrix-screensaver-releases/releases/latest)**
 
 ### Installation Steps:
 
