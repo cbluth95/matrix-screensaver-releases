@@ -36,7 +36,7 @@ A high-performance Matrix-style digital rain screensaver for Windows with Direct
 ### Installation Steps:
 
 1. Download the installer from the [Releases page](https://github.com/cbluth95/matrix-screensaver-releases/releases)
-2. Run `MatrixSaverSetup-1.12.1.exe` (no additional software required - includes .NET runtime)
+2. Run `MatrixSaverSetup-1.2.0.exe` (no additional software required - includes .NET runtime)
 3. Follow the installation wizard
 4. Configure in Windows:
    - Right-click desktop → **Personalize**
