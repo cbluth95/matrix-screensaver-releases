@@ -4,7 +4,7 @@
 
 A high-performance Matrix-style digital rain screensaver for Windows with DirectX GPU acceleration.
 
-![Matrix Screensaver](https://img.shields.io/badge/version-1.12.1-green)
+![Matrix Screensaver](https://img.shields.io/badge/version-1.2.0-green)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
